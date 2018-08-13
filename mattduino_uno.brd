@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.3">
+<eagle version="9.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -174,9 +174,9 @@
 <wire x1="66.04" y1="52.07" x2="64.77" y2="53.34" width="0" layer="20"/>
 <wire x1="64.77" y1="53.34" x2="0" y2="53.34" width="0" layer="20"/>
 <wire x1="0" y1="53.34" x2="0" y2="0" width="0" layer="20"/>
-<text x="7.932" y="45.478" size="10.16" layer="22" rot="MR20" align="top-right">Mattduino</text>
+<text x="5.646" y="45.478" size="9" layer="22" rot="MR20" align="top-right">Mattduino</text>
 <text x="54.682" y="13.728" size="1.778" layer="22" rot="MR20">A filthy cheap knockoff of an</text>
-<text x="46.182" y="10.978" size="3.81" layer="22" rot="MR20">Arduino Mega</text>
+<text x="46.182" y="10.978" size="3.81" layer="22" rot="MR20">Arduino Uno</text>
 </plain>
 <libraries>
 <library name="SparkFun-Boards">
@@ -3043,6 +3043,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <param name="checkRestrict" value="0"/>
 <param name="checkStop" value="0"/>
 <param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -3933,6 +3936,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="7.692" y1="25.32" x2="10.596" y2="25.32" width="0.508" layer="1"/>
 </signal>
 </signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
 </board>
 </drawing>
 <compatibility>
