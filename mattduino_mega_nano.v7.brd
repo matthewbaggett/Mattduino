@@ -2145,65 +2145,113 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </pass>
 </autorouter>
 <elements>
-<element name="C3" library="rcl" package="C0603" value="100n" x="35.56" y="12.7" rot="R270">
+<element name="C3" library="rcl" package="C0603" value="100n" x="35.56" y="12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="35.941" y="14.351" size="0.8128" layer="25" rot="R90"/>
 <attribute name="SPICEPREFIX" value="C" x="35.56" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C4" library="rcl" package="C0603" value="100n" x="56.73" y="20.066" rot="R180">
+<element name="C4" library="rcl" package="C0603" value="100n" x="56.73" y="20.066" smashed="yes" rot="R180">
+<attribute name="NAME" x="56.173" y="21.209" size="0.8128" layer="25"/>
 <attribute name="SPICEPREFIX" value="C" x="56.73" y="20.066" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C5" library="rcl" package="C0603" value="100n" x="34.964" y="7.366">
+<element name="C5" library="rcl" package="C0603" value="100n" x="34.964" y="7.366" smashed="yes">
+<attribute name="NAME" x="36.615" y="6.985" size="0.8128" layer="25"/>
 <attribute name="SPICEPREFIX" value="C" x="34.964" y="7.366" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C6" library="rcl" package="C0603" value="100n" x="17.78" y="12.7" rot="R270">
+<element name="C6" library="rcl" package="C0603" value="100n" x="17.78" y="12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="18.161" y="14.351" size="0.8128" layer="25" rot="R90"/>
 <attribute name="SPICEPREFIX" value="C" x="17.78" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C7" library="SparkFun-Capacitors" package="PANASONIC_D" value="47uF" x="81.28" y="12.7" rot="R180">
+<element name="C7" library="SparkFun-Capacitors" package="PANASONIC_D" value="47uF" x="81.28" y="12.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="81.28" y="9.271" size="0.8128" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-08478" x="81.28" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="IC1" library="SmartPrj" package="TQFP100" value="ATMEGA2560-16AU" x="46.99" y="12.7" rot="R45"/>
-<element name="J1" library="SparkFun-Connectors" package="1X10_LOCK" value="" x="1.27" y="1.27"/>
-<element name="J10" library="SparkFun-Connectors" package="1X10_LOCK" value="" x="52.07" y="24.13"/>
-<element name="J11" library="SparkFun-Connectors" package="1X07_LOCK" value="" x="77.47" y="24.13"/>
-<element name="J2" library="SparkFun-Connectors" package="1X10_LOCK" value="" x="26.67" y="1.27"/>
-<element name="J3" library="SparkFun-Connectors" package="1X10_LOCK" value="" x="52.07" y="1.27"/>
-<element name="J7" library="SparkFun-Connectors" package="1X07_LOCK" value="" x="77.47" y="1.27"/>
-<element name="J8" library="SparkFun-Connectors" package="1X10_LOCK" value="" x="1.27" y="24.13"/>
-<element name="J9" library="SparkFun-Connectors" package="1X10_LOCK" value="" x="26.67" y="24.13"/>
-<element name="R1" library="rcl" package="R0603" value="1M" x="68.16" y="17.018" rot="R180">
+<element name="IC1" library="SmartPrj" package="TQFP100" value="ATMEGA2560-16AU" x="46.99" y="12.7" smashed="yes" rot="R45">
+<attribute name="NAME" x="56.371325" y="15.885221875" size="0.8128" layer="25" rot="R315"/>
+</element>
+<element name="J1" library="SparkFun-Connectors" package="1X10_LOCK" value="" x="1.27" y="1.27" smashed="yes">
+<attribute name="VALUE" x="0.254" y="-0.889" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="J10" library="SparkFun-Connectors" package="1X10_LOCK" value="" x="52.07" y="24.13" smashed="yes">
+<attribute name="VALUE" x="51.054" y="21.971" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="J11" library="SparkFun-Connectors" package="1X07_LOCK" value="" x="77.47" y="24.13" smashed="yes">
+<attribute name="VALUE" x="76.2" y="22.098" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="J2" library="SparkFun-Connectors" package="1X10_LOCK" value="" x="26.67" y="1.27" smashed="yes">
+<attribute name="VALUE" x="25.654" y="-0.889" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="J3" library="SparkFun-Connectors" package="1X10_LOCK" value="" x="52.07" y="1.27" smashed="yes">
+<attribute name="VALUE" x="51.054" y="-0.889" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="J7" library="SparkFun-Connectors" package="1X07_LOCK" value="" x="77.47" y="1.27" smashed="yes">
+<attribute name="VALUE" x="76.2" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="J8" library="SparkFun-Connectors" package="1X10_LOCK" value="" x="1.27" y="24.13" smashed="yes">
+<attribute name="VALUE" x="0.254" y="21.971" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="J9" library="SparkFun-Connectors" package="1X10_LOCK" value="" x="26.67" y="24.13" smashed="yes">
+<attribute name="VALUE" x="25.654" y="21.971" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="R1" library="rcl" package="R0603" value="1M" x="68.16" y="17.018" smashed="yes" rot="R180">
+<attribute name="NAME" x="67.603" y="18.161" size="0.8128" layer="25"/>
 <attribute name="SPICEPREFIX" value="R" x="68.16" y="17.018" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R3" library="rcl" package="R0603" value="1k" x="53.34" y="3.556">
+<element name="R3" library="rcl" package="R0603" value="1k" x="53.34" y="3.556" smashed="yes">
+<attribute name="NAME" x="54.991" y="3.175" size="0.8128" layer="25"/>
 <attribute name="SPICEPREFIX" value="R" x="53.34" y="3.556" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R4" library="rcl" package="R0603" value="10k" x="74.588" y="3.81">
+<element name="R4" library="rcl" package="R0603" value="10k" x="74.588" y="3.81" smashed="yes">
+<attribute name="NAME" x="73.953" y="4.953" size="0.8128" layer="25"/>
 <attribute name="SPICEPREFIX" value="R" x="74.588" y="3.81" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R5" library="rcl" package="R0603" value="10k" x="77.812" y="3.81" rot="R180">
+<element name="R5" library="rcl" package="R0603" value="10k" x="77.812" y="3.81" smashed="yes" rot="R180">
+<attribute name="NAME" x="77.255" y="4.953" size="0.8128" layer="25"/>
 <attribute name="SPICEPREFIX" value="R" x="77.812" y="3.81" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="L1" library="SparkFun-LED" package="LED-0603" value="RED" x="33.02" y="12.7" rot="R270"/>
-<element name="R2" library="rcl" package="R0603" value="?" x="30.48" y="12.7" rot="R90">
+<element name="L1" library="SparkFun-LED" package="LED-0603" value="RED" x="33.02" y="12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="33.147" y="14.986" size="0.8128" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="33.401" y="9.906" size="0.8128" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+</element>
+<element name="R2" library="rcl" package="R0603" value="?" x="30.48" y="12.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="30.861" y="14.351" size="0.8128" layer="25" rot="R90"/>
 <attribute name="SPICEPREFIX" value="R" x="21.844" y="6.604" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="L2" library="SparkFun-LED" package="LED-0603" value="AMBER" x="27.94" y="12.7" rot="R270"/>
-<element name="R6" library="rcl" package="R0603" value="?" x="25.4" y="12.7" rot="R90">
+<element name="L2" library="SparkFun-LED" package="LED-0603" value="AMBER" x="27.94" y="12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="28.067" y="14.986" size="0.8128" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="28.321" y="9.144" size="0.8128" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+</element>
+<element name="R6" library="rcl" package="R0603" value="?" x="25.4" y="12.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="25.781" y="14.351" size="0.8128" layer="25" rot="R90"/>
 <attribute name="SPICEPREFIX" value="R" x="23.114" y="-4.826" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R7" library="rcl" package="R0603" value="?" x="20.32" y="12.7" rot="R90">
+<element name="R7" library="rcl" package="R0603" value="?" x="20.32" y="12.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="20.701" y="14.351" size="0.8128" layer="25" rot="R90"/>
 <attribute name="SPICEPREFIX" value="R" x="20.32" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="L3" library="SparkFun-LED" package="LED-0603" value="GREEN" x="22.86" y="12.7" rot="R270"/>
-<element name="Y2" library="SparkFun-Clocks" package="HC49UP" value="" x="68.072" y="12.7" rot="R180"/>
-<element name="Y1" library="SparkFun-Clocks" package="HC49U" value="" x="68.072" y="12.7" rot="R180"/>
-<element name="C2" library="rcl" package="C0603" value="22p" x="63.842" y="17.018" rot="R180">
+<element name="L3" library="SparkFun-LED" package="LED-0603" value="GREEN" x="22.86" y="12.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="23.241" y="14.986" size="0.8128" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="23.241" y="9.144" size="0.8128" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+</element>
+<element name="Y2" library="SparkFun-Clocks" package="HC49UP" value="" x="68.072" y="12.7" smashed="yes" rot="R180">
+<attribute name="VALUE" x="68.072" y="15.367" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+</element>
+<element name="Y1" library="SparkFun-Clocks" package="HC49U" value="" x="68.072" y="12.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="68.072" y="9.525" size="0.8128" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="68.072" y="15.367" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+</element>
+<element name="C2" library="rcl" package="C0603" value="22p" x="63.842" y="17.018" smashed="yes" rot="R180">
+<attribute name="NAME" x="63.285" y="18.161" size="0.8128" layer="25"/>
 <attribute name="SPICEPREFIX" value="C" x="63.842" y="17.018" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C9" library="rcl" package="C0603" value="22p" x="72.644" y="17.018">
+<element name="C9" library="rcl" package="C0603" value="22p" x="72.644" y="17.018" smashed="yes">
+<attribute name="NAME" x="72.009" y="18.161" size="0.8128" layer="25"/>
 <attribute name="SPICEPREFIX" value="C" x="72.644" y="17.018" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J4" library="SparkFun-Connectors" package="2X3-SHROUDED" value="" x="8.382" y="12.7" rot="R90">
+<element name="ICSP" library="SparkFun-Connectors" package="2X3-SHROUDED" value="" x="8.382" y="12.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="9.144" y="7.62" size="0.8128" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="PROD_ID" value="CONN-10681" x="8.382" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SF_ID" value="PRT_10877" x="8.382" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="16.764" y="8.89" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 </elements>
 <signals>
@@ -2229,7 +2277,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="53.3606" y1="4.3854" x2="54.19" y2="3.556" width="0.3048" layer="1"/>
 <wire x1="50.734221875" y1="4.006028125" x2="51.494896875" y2="4.006028125" width="0.3048" layer="1"/>
 <contactref element="J8" pad="1"/>
-<contactref element="J4" pad="2"/>
+<contactref element="ICSP" pad="2"/>
 <wire x1="75.438" y1="3.81" x2="76.2" y2="3.81" width="0.3048" layer="1"/>
 <wire x1="76.2" y1="3.81" x2="76.962" y2="3.81" width="0.3048" layer="1"/>
 <wire x1="53.353959375" y1="17.649746875" x2="54.62045625" y2="18.91624375" width="0.3048" layer="1"/>
@@ -2304,7 +2352,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="J11" pad="7"/>
 <contactref element="C2" pad="2"/>
 <contactref element="C9" pad="2"/>
-<contactref element="J4" pad="6"/>
+<contactref element="ICSP" pad="6"/>
 <wire x1="53.00040625" y1="18.0033" x2="55.06310625" y2="20.066" width="0.3048" layer="1"/>
 <wire x1="55.06310625" y1="20.066" x2="55.88" y2="20.066" width="0.3048" layer="1"/>
 <wire x1="40.6260375" y1="7.75025" x2="39.8099875" y2="6.9342" width="0.3048" layer="1"/>
@@ -2351,7 +2399,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="51.146571875" y1="2.88656875" x2="50.384571875" y2="3.64856875" width="0.3048" layer="1"/>
 <wire x1="52.49" y1="3.556" x2="51.816003125" y2="3.556" width="0.3048" layer="1"/>
 <wire x1="51.816003125" y1="3.556" x2="51.146571875" y2="2.88656875" width="0.3048" layer="1"/>
-<contactref element="J4" pad="5"/>
+<contactref element="ICSP" pad="5"/>
 <wire x1="10.922" y1="11.43" x2="10.1346" y2="12.2174" width="0.3048" layer="16"/>
 <wire x1="10.1346" y1="12.2174" x2="10.1346" y2="12.8280625" width="0.3048" layer="16"/>
 <wire x1="10.1346" y1="12.8280625" x2="9.652" y2="13.3106625" width="0.3048" layer="16"/>
@@ -3024,7 +3072,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="42.719546875" y1="3.4798" x2="43.80801875" y2="4.568271875" width="0.3048" layer="1"/>
 <wire x1="34.29" y1="1.143" x2="36.6268" y2="3.4798" width="0.3048" layer="1"/>
 <wire x1="36.6268" y1="3.4798" x2="42.719546875" y2="3.4798" width="0.3048" layer="1"/>
-<contactref element="J4" pad="3"/>
+<contactref element="ICSP" pad="3"/>
 <wire x1="8.382" y1="11.43" x2="14.478" y2="5.334" width="0.3048" layer="16"/>
 <wire x1="30.099" y1="5.334" x2="34.29" y2="1.143" width="0.3048" layer="16"/>
 <wire x1="14.478" y1="5.334" x2="30.099" y2="5.334" width="0.3048" layer="16"/>
@@ -3035,7 +3083,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="44.161571875" y1="4.214715625" x2="42.99485625" y2="3.048" width="0.3048" layer="1"/>
 <wire x1="38.481" y1="3.048" x2="36.83" y2="1.397" width="0.3048" layer="1"/>
 <wire x1="42.99485625" y1="3.048" x2="38.481" y2="3.048" width="0.3048" layer="1"/>
-<contactref element="J4" pad="4"/>
+<contactref element="ICSP" pad="4"/>
 <wire x1="8.382" y1="13.97" x2="9.7028" y2="12.6492" width="0.3048" layer="16"/>
 <wire x1="9.7028" y1="12.6492" x2="9.7028" y2="10.7198625" width="0.3048" layer="16"/>
 <wire x1="14.6568625" y1="5.7658" x2="30.2778625" y2="5.7658" width="0.3048" layer="16"/>
@@ -3050,7 +3098,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="39.37" y1="1.143" x2="40.8432" y2="2.6162" width="0.3048" layer="1"/>
 <wire x1="40.8432" y1="2.6162" x2="43.2701625" y2="2.6162" width="0.3048" layer="1"/>
 <wire x1="43.2701625" y1="2.6162" x2="44.515125" y2="3.8611625" width="0.3048" layer="1"/>
-<contactref element="J4" pad="1"/>
+<contactref element="ICSP" pad="1"/>
 <wire x1="5.842" y1="11.43" x2="4.6228" y2="12.6492" width="0.3048" layer="16"/>
 <wire x1="4.6228" y1="14.4750125" x2="5.3369875" y2="15.1892" width="0.3048" layer="16"/>
 <wire x1="4.6228" y1="12.6492" x2="4.6228" y2="14.4750125" width="0.3048" layer="16"/>
@@ -3218,8 +3266,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="5,1,1942831e0d2629c1"/>
-<approved hash="5,1,0d6945e75f09223d"/>
 <approved hash="4,1,07ab75bcfba53d4c"/>
 <approved hash="4,1,c3acb14c156e4b48"/>
 <approved hash="4,1,07afb5694776d949"/>
